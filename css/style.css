@@ -1,0 +1,33 @@
+/*navigation end*/
+/*navigation Start*/
+
+.nav{
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav > li{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    background-color: burlywood;
+    height: 30px;
+    padding: 7px;
+    text-shadow: darkblue;
+}
+
+.nav > li a{
+    text-decoration: none;
+}
+
+.nav > li:hover{
+    box-sizing: 5px 5px 5px black;
+    transform: scale(1.1);
+    font-size: 20px;
+}
+
+/*navigation end*/
+/*navigation Start*/
+.hidden{
+    display: none;
+}
